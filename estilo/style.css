@@ -8,8 +8,7 @@
   padding: 0px;
 }
 
-body {
-  max-width: 100%;
+body, html{
   margin: 0 auto;
   min-height: 100vh;
 }
@@ -18,20 +17,31 @@ header {
   text-align: center;
   color: white;
   background-color: black;
-  padding: 20px 0;
 }
 
-h1 {
+header > h1 {
   font-family: "Passion One", sans-serif;
-  padding: 20px;
-  padding-bottom: 5px;
+  padding-top: 50px;
+  font-variant: small-caps;
+  font-size: 10vh;
 }
+
+header > p {
+  padding-bottom: 50px;
+}
+
 main p {
-  margin: 30px 10px;
+  margin: 30px 0px 30px 20px;
   text-align: left;
   font-family: "Sriracha", cursive;
-  line-height: 35px;
+  font-size: 3.5vh;
 }
+
+section {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
 a {
   color: #FFFFFF;
   text-decoration: none;
@@ -42,6 +52,7 @@ a:hover {
 
 #conteiner {
   padding: 10px 0;
+  background-color: darkgray;
   background-image: url(../imagens/background001.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,11 +61,19 @@ a:hover {
 }
 #conteiner2 {
   padding: 10px 0;
-  background: white url(../imagens/background002.jpg) center center no-repeat fixed
+  background: darkgray url(../imagens/background002.jpg) center center no-repeat fixed
 }
 .conteinerp {
+  display: inline-block;
   background-color: #0000006B;
   color: #FFFFFFD9;
+  padding: 20px;
+  margin-left: 20px;
+  font-size: 3vh;
+}
+
+.espaco {
+  padding-bottom: 20px;
 }
 
 footer {
@@ -62,4 +81,5 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
+  font-size: 3vh;
 }
