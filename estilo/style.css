@@ -39,7 +39,7 @@ main p {
 
 section {
   padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-bottom: 7vh;
 }
 
 a {
@@ -51,29 +51,32 @@ a:hover {
 }
 
 #conteiner {
-  padding: 10px 0;
+  padding: 30px 0;
   background-color: darkgray;
   background-image: url(../imagens/background001.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: 70%;
+  box-shadow: inset 6px 6px 13px 0px #00000075;
 }
 #conteiner2 {
-  padding: 10px 0;
-  background: darkgray url(../imagens/background002.jpg) center center no-repeat fixed
+  padding: 30px 0;
+  background: darkgray url(../imagens/background002.jpg) center center no-repeat fixed;
+  box-shadow: inset 6px 6px 13px 0px #00000075;
 }
 .conteinerp {
   display: inline-block;
-  background-color: #0000006B;
+  background-color: #00000070;
+  text-shadow: 1px 1px 1px #0000008F;
   color: #FFFFFFD9;
   padding: 20px;
   margin-left: 20px;
   font-size: 3vh;
 }
 
-.espaco {
-  padding-bottom: 20px;
+section > p {
+  padding-bottom: 2em;
 }
 
 footer {
